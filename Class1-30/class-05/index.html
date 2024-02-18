@@ -1,0 +1,135 @@
+<!-- 
+    # CSS border properties
+    1. border-width
+    2. border-style
+    3. border-color
+ -->
+
+<!-- 
+    # CSS border style
+    1. solid
+    2. double
+    3. ridge
+    4. inset
+    5. outset
+    6. groove
+    7. dashed
+    8. dotted
+    9. none
+    10. mix
+  -->
+
+<!-- 
+    # CSS border shorthand
+    * border:2px solid green;
+   -->
+
+<!-- 
+    # CSS border side
+    1. border-top
+    2. border-bottom
+    3. border-right
+    4. border-left
+    -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css borders</title>
+    <style>
+        .border-solid{
+            border-width:2px;
+            border-style:solid;
+            border-color:red;
+        }
+        .border-dotted{
+            border-width:2px;
+            border-style:dotted;
+            border-color:black;
+        }
+        .border-dashed{
+            border-width:2px;
+            border-style:dashed;
+            border-color:green;
+        }
+        .border-double{
+            border-width:2px;
+            border-style:double;
+            border-color:indianred;
+        }
+        .border-ridge{
+            border-width:2px;
+            border-style:ridge;
+            border-color:tan;
+        }
+        .border-inset{
+            border-width:2px;
+            border-style:inset;
+            border-color:black;
+        }
+        .border-outset{
+            border-width:2px;
+            border-style:outset;
+            border-color:purple;
+        }
+        .border-groove{
+            border-width:2px;
+            border-style:groove;
+            border-color:blue;
+        }
+        .border-none{
+            border-style:none;
+        }
+        .border-mix{
+            border-width:2px 3px 4px 5px;
+            border-style:solid dotted dashed groove;
+            border-color:black green red purple;
+        }
+        /* border a side & shorthand */
+        .border-top{
+            border-top:2px solid red;
+        }
+        .border-bottom{
+            border-bottom:2px solid purple;
+        }
+        .border-left{
+            border-left:5px solid green;
+        }
+        .border-right{
+            border-right:5px dotted blue;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <p class="border-solid" >Lorem ipsum dolor sit amet.</p>
+    <p class="border-dotted">Lorem ipsum dolor sit amet.</p>
+    <p class="border-dashed">Lorem ipsum dolor sit amet.</p>
+    <p class="border-double">Lorem ipsum dolor sit amet.</p>
+    <p class="border-ridge">Lorem ipsum dolor sit amet.</p>
+    <p class="border-inset">Lorem ipsum dolor sit amet.</p>
+    <p class="border-outset">Lorem ipsum dolor sit amet.</p>
+    <p class="border-groove">Lorem ipsum dolor sit amet.</p>
+    <p class="border-none">Lorem ipsum dolor sit amet.</p>
+    <p class="border-mix">Lorem ipsum dolor sit amet.</p>
+    <hr>
+    <p class="border-top" >
+        Lorem ipsum dolor sit amet.
+    </p>
+    <p class="border-bottom" >
+        Lorem ipsum dolor sit amet.
+    </p>
+    <p class="border-left" >
+        Lorem ipsum dolor sit amet.
+    </p>
+    <p class="border-right" >
+        Lorem ipsum dolor sit amet.
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!-- 
+    # Box sizing properties
+    1. border-box
+    2. content-box (default behavior)
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing</title>
+    <style>
+        .border-box {
+            border: 10px solid black;
+            width: 500px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .content-box {
+            border: 10px solid purple;
+            width: 500px;
+            padding: 20px;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p class="border-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ad voluptates doloribus
+            voluptatibus illo ducimus aperiam suscipit eum pariatur, harum consequuntur voluptatem dignissimos
+            consectetur! Maxime, earum aut? Possimus magni tenetur consequatur voluptatum nesciunt enim maxime eveniet,
+            a vitae amet ipsum sit dolorum? Voluptatum qui rerum in molestias, obcaecati at cumque necessitatibus magni
+            distinctio odit eaque consequatur eum possimus esse similique, modi impedit magnam? Quis id, laudantium
+            necessitatibus nisi quisquam ea quaerat amet velit molestias vitae qui. Asperiores esse a iure fugiat facere
+            adipisci! Deleniti, voluptatum ea quasi nemo commodi mollitia eaque dignissimos, amet officiis quidem quam
+            voluptatem reprehenderit soluta voluptatibus.</p>
+
+        <p class="content-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ad voluptates doloribus
+            voluptatibus illo ducimus aperiam suscipit eum pariatur, harum consequuntur voluptatem dignissimos
+            consectetur! Maxime, earum aut? Possimus magni tenetur consequatur voluptatum nesciunt enim maxime eveniet,
+            a vitae amet ipsum sit dolorum? Voluptatum qui rerum in molestias, obcaecati at cumque necessitatibus magni
+            distinctio odit eaque consequatur eum possimus esse similique, modi impedit magnam? Quis id, laudantium
+            necessitatibus nisi quisquam ea quaerat amet velit molestias vitae qui. Asperiores esse a iure fugiat facere
+            adipisci! Deleniti, voluptatum ea quasi nemo commodi mollitia eaque dignissimos, amet officiis quidem quam
+            voluptatem reprehenderit soluta voluptatibus.</p>
+    </div>
+</body>
+
+</html>

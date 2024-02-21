@@ -1,0 +1,152 @@
+<!-- 
+    # Overflow properties
+    1. overflow:hidden
+    2. overflow:scroll
+    3. overflow:auto
+    4. overflow:visible (default)
+ -->
+
+<!-- 
+    # overflow-x properties
+    1. hidden
+    2. scroll
+    3. auto
+    4. visible (default)
+  -->
+
+<!-- 
+    # Overflow-y
+    1. hidden
+    2. scroll
+    3. auto
+    4. visible (default)
+   -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .overflow-hidden{
+            border:2px solid black;
+            width:500px;
+            height:200px;
+            overflow:hidden;
+        }
+        .overflow-scroll{
+            margin-top:200px;
+            width:500px;
+            height:200px;
+            border:2px solid black;
+            overflow:scroll;
+        }
+        .overflow-auto{
+            margin-top:200px;
+            border:2px solid black;
+            width:500px;
+            height:200px;
+            overflow:auto;
+        }
+        .overflow-visible{
+            margin-top:200px;
+            border:2px solid black;
+            width:500px;
+            height:200px;
+            overflow:visible;
+        }
+        /* overflow-x */
+        .overflow-x-hidden{
+            border:2px solid black;
+            width:500px;
+            overflow-x:hidden;
+        }
+        .overflow-x-scroll{
+            border:2px solid black;
+            width:500px;
+            overflow-x:scroll;
+        }
+        .overflow-x-auto{
+            border:2px solid black;
+            width:500px;
+            overflow-x:auto;
+        }
+        .overflow-x-visible{
+            border:2px solid black;
+            width:500px;
+            overflow-x:visible;
+        }
+        /* overflow-y */
+        .overflow-y-hidden{
+            border:2px solid black;
+            width:500px;
+            height:200px;
+            overflow-y:hidden;
+        }
+        .overflow-y-scroll{
+            border:2px solid black;
+            width:500px;
+            height:200px;
+            margin-top:200px;
+            overflow-y:scroll;
+        }
+        .overflow-y-auto{
+            border:2px solid black;
+            width:500px;
+            height:200px;
+            margin-top:200px;
+            overflow-y:auto;
+        }
+        .overflow-y-visible{
+            border:2px solid black;
+            width:500px;
+            height:200px;
+            margin-top:200px;
+            overflow-y:visible;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="overflow-hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, inventore. Vero porro facilis aliquid, ut nisi dolores eaque veritatis voluptatem sint eos ea cupiditate provident sunt dicta maiores, odio obcaecati culpa! Tempore libero aliquam, repellat minima in voluptates asperiores sed eligendi adipisci laborum, quibusdam corporis! Culpa impedit inventore harum, voluptas soluta neque nobis atque et, error, pariatur in suscipit quod numquam consequatur ipsa iure placeat! Repellat, fugit pariatur. Laboriosam placeat odit quod architecto numquam sapiente omnis magnam suscipit laborum? Tempore laudantium voluptatibus blanditiis illum modi repudiandae unde sed alias dignissimos aperiam commodi repellat dolores vero, amet consequuntur enim deleniti neque est inventore. Eveniet unde mollitia similique consectetur id! Vel error eos cupiditate, est alias quia incidunt blanditiis nulla ab quos magnam recusandae, non nostrum? Alias aliquid impedit, eos quae necessitatibus nostrum maxime nesciunt in corrupti consectetur dicta illum repudiandae quaerat quia nulla? Earum enim porro quibusdam iure minima delectus hic.</p>
+
+    <p class="overflow-scroll">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, inventore. Vero porro facilis aliquid, ut nisi dolores eaque veritatis voluptatem sint eos ea cupiditate provident sunt dicta maiores, odio obcaecati culpa! Tempore libero aliquam, repellat minima in voluptates asperiores sed eligendi adipisci laborum, quibusdam corporis! Culpa impedit inventore harum, voluptas soluta neque nobis atque et, error, pariatur in suscipit quod numquam consequatur ipsa iure placeat! Repellat, fugit pariatur. Laboriosam placeat odit quod architecto numquam sapiente omnis magnam suscipit laborum? Tempore laudantium </p>
+    
+    <p class="overflow-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, inventore. Vero porro facilis aliquid, ut nisi dolores eaque veritatis voluptatem sint eos ea cupiditate provident sunt dicta maiores, odio obcaecati culpa! Tempore libero aliquam, repellat minima in voluptates asperiores sed eligendi adipisci laborum, quibusdam corporis! Culpa impedit inventore harum, voluptas soluta neque nobis atque et, error, pariatur in suscipit quod numquam consequatur ipsa iure placeat! Repellat, fugit pariatur. Laboriosam placeat odit quod architecto numquam sapiente omnis magnam suscipit laborum? Tempore laudantium voluptatibus blanditiis illum modi repudiandae unde sed alias dignissimos aperiam commodi repellat dolores vero, amet consequuntur enim deleniti neque est inventore. Eveniet unde mollitia similique consectetur id! Vel error eos cupiditate, est alias quia incidunt blanditiis nulla ab quos magnam recusandae, non nostrum? Alias aliquid impedit, eos quae necessitatibus nostrum maxime nesciunt in corrupti consectetur dicta illum repudiandae quaerat quia nulla? Earum enim porro quibusdam iure minima delectus hic.</p>
+
+    <p class="overflow-visible">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, inventore. Vero porro facilis aliquid, ut nisi dolores eaque veritatis voluptatem sint eos ea cupiditate provident sunt dicta maiores, odio obcaecati culpa! Tempore libero aliquam, repellat minima in voluptates asperiores sed eligendi adipisci laborum, quibusdam corporis! Culpa impedit inventore harum, voluptas soluta neque nobis atque et, error, pariatur in suscipit quod numquam consequatur ipsa iure placeat! Repellat, fugit pariatur. Laboriosam placeat odit quod architecto numquam sapiente omnis magnam suscipit laborum? Tempore laudantium voluptatibus blanditiis illum modi repudiandae unde sed alias dignissimos aperiam commodi repellat dolores vero, amet consequuntur enim deleniti neque est inventore. Eveniet unde mollitia similique consectetur id! Vel error eos cupiditate, est alias quia incidunt blanditiis nulla ab quos magnam recusandae, non nostrum? Alias aliquid impedit, eos quae necessitatibus nostrum maxime nesciunt in corrupti consectetur dicta illum repudiandae quaerat quia nulla? Earum enim porro quibusdam iure minima delectus hic.</p>
+
+    <hr style="margin-top:200px;">
+
+    <div class="overflow-x-hidden">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sint voluptatum enim, debitis alias quidem a numquam nostrum facere temporibus eaque cum officia animi deleniti quas dignissimos, placeat voluptatibus magnam. Modi tempore saepe illum placeat consectetur natus quasi similique sit amet possimus. Deleniti sed, maxime officia voluptate impedit laudantium consectetur animi natus reprehenderit aliquid quaerat molestiae autem, voluptas maiores ratione illum sequi iusto rerum quidem esse? Molestias, ullam. Quo provident, doloribus dolorem nesciunt corporis harum dolores, vel doloremque saepe ex mollitia dolorum aliquid obcaecati ducimus dolore distinctio temporibus earum cumque fuga repudiandae. A ea nihil quisquam dolorem nam praesentium repudiandae.</p>
+        <img src="https://placehold.co/600" alt="">
+    </div>
+    <div class="overflow-x-scroll">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sint voluptatum enim, debitis alias quidem a numquam nostrum facere temporibus eaque cum officia animi deleniti quas dignissimos, placeat voluptatibus magnam. Modi tempore saepe illum placeat consectetur natus quasi similique sit amet possimus. Deleniti sed, maxime officia voluptate impedit laudantium consectetur animi natus reprehenderit aliquid quaerat molestiae autem, voluptas maiores ratione illum sequi iusto rerum quidem esse? Molestias, ullam. Quo provident, doloribus dolorem nesciunt corporis harum dolores, vel doloremque saepe ex mollitia dolorum aliquid obcaecati ducimus dolore distinctio temporibus earum cumque fuga repudiandae. A ea nihil quisquam dolorem nam praesentium repudiandae.</p>
+        <img src="https://placehold.co/600" alt="">
+    </div>
+    <div class="overflow-x-auto">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sint voluptatum enim, debitis alias quidem a numquam nostrum facere temporibus eaque cum officia animi deleniti quas dignissimos, placeat voluptatibus magnam. Modi tempore saepe illum placeat consectetur natus quasi similique sit amet possimus. Deleniti sed, maxime officia voluptate impedit laudantium consectetur animi natus reprehenderit aliquid quaerat molestiae autem, voluptas maiores ratione illum sequi iusto rerum quidem esse? Molestias, ullam. Quo provident, doloribus dolorem nesciunt corporis harum dolores, vel doloremque saepe ex mollitia dolorum aliquid obcaecati ducimus dolore distinctio temporibus earum cumque fuga repudiandae. A ea nihil quisquam dolorem nam praesentium repudiandae.</p>
+        <img src="https://placehold.co/600" alt="">
+    </div>
+    <div class="overflow-x-visible">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sint voluptatum enim, debitis alias quidem a numquam nostrum facere temporibus eaque cum officia animi deleniti quas dignissimos, placeat voluptatibus magnam. Modi tempore saepe illum placeat consectetur natus quasi similique sit amet possimus. Deleniti sed, maxime officia voluptate impedit laudantium consectetur animi natus reprehenderit aliquid quaerat molestiae autem, voluptas maiores ratione illum sequi iusto rerum quidem esse? Molestias, ullam. Quo provident, doloribus dolorem nesciunt corporis harum dolores, vel doloremque saepe ex mollitia dolorum aliquid obcaecati ducimus dolore distinctio temporibus earum cumque fuga repudiandae. A ea nihil quisquam dolorem nam praesentium repudiandae.</p>
+        <img src="https://placehold.co/600" alt="">
+    </div>
+
+    <hr style="margin-top:200px;">
+
+    <p class="overflow-y-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nam natus quod corporis eveniet nobis? Dolore magni ipsam praesentium nemo ducimus labore animi dicta voluptatem repudiandae ipsa, commodi corrupti dignissimos maxime debitis! Quisquam tenetur aut eos omnis nihil, aliquam consequuntur esse quos velit doloremque consequatur dicta natus. Nisi quae, inventore eveniet a quod eos hic quas temporibus laboriosam perferendis voluptate maxime fuga. Alias ullam voluptate sapiente, incidunt nostrum porro et consequatur neque necessitatibus quo reiciendis quis ratione nihil hic consequuntur quas, eos quasi perspiciatis fugiat odio blanditiis! Neque fuga aliquam blanditiis animi debitis modi non, quidem consectetur nulla quas nobis id pariatur, dolores eius earum ipsam voluptas laborum! Quibusdam sint placeat fugiat id ullam voluptas quas soluta, facilis tenetur officia consequuntur perspiciatis eius porro harum repellat error laborum, architecto cumque praesentium quaerat illum ducimus, natus facere? Tenetur, ducimus, temporibus fugit magni iure neque dignissimos animi eligendi assumenda quaerat dolores corrupti.</p>
+
+    <p class="overflow-y-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nam natus quod corporis eveniet nobis? Dolore magni ipsam praesentium nemo ducimus labore animi dicta voluptatem repudiandae ipsa, commodi corrupti dignissimos maxime debitis! Quisquam tenetur aut eos omnis nihil, aliquam consequuntur esse quos velit doloremque consequatur dicta natus. Nisi quae, inventore eveniet a quod eos hic quas temporibus laboriosam perferendis voluptate maxime fuga. Alias ullam voluptate sapiente, incidunt nostrum porro et consequatur neque necessitatibus quo reiciendis quis ratione nihil hic consequuntur quas, eos quasi perspiciatis fugiat odio blanditiis! Neque fuga aliquam blanditiis animi debitis modi non, quidem consectetur nulla quas nobis id pariatur, dolores eius earum ipsam voluptas laborum! Quibusdam sint placeat fugiat id ullam voluptas quas soluta, facilis tenetur officia consequuntur perspiciatis eius porro harum repellat error laborum, architecto cumque praesentium quaerat illum ducimus, natus facere? Tenetur, ducimus, temporibus fugit magni iure neque dignissimos animi eligendi assumenda quaerat dolores corrupti.</p>
+
+    <p class="overflow-y-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nam natus quod corporis eveniet nobis? Dolore magni ipsam praesentium nemo ducimus labore animi dicta voluptatem repudiandae ipsa, commodi corrupti dignissimos maxime debitis! Quisquam tenetur aut eos omnis nihil, aliquam consequuntur esse quos velit doloremque consequatur dicta natus. Nisi quae, inventore eveniet a quod eos hic quas temporibus laboriosam perferendis voluptate maxime fuga. Alias ullam voluptate sapiente, incidunt nostrum porro et consequatur neque necessitatibus quo reiciendis quis ratione nihil hic consequuntur quas, eos quasi perspiciatis fugiat odio blanditiis! Neque fuga aliquam blanditiis animi debitis modi non, quidem consectetur nulla quas nobis id pariatur, dolores eius earum ipsam voluptas laborum! Quibusdam sint placeat fugiat id ullam voluptas quas soluta, facilis tenetur officia consequuntur perspiciatis eius porro harum repellat error laborum, architecto cumque praesentium quaerat illum ducimus, natus facere? Tenetur, ducimus, temporibus fugit magni iure neque dignissimos animi eligendi assumenda quaerat dolores corrupti.</p>
+
+    <p class="overflow-y-visible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nam natus quod corporis eveniet nobis? Dolore magni ipsam praesentium nemo ducimus labore animi dicta voluptatem repudiandae ipsa, commodi corrupti dignissimos maxime debitis! Quisquam tenetur aut eos omnis nihil, aliquam consequuntur esse quos velit doloremque consequatur dicta natus. Nisi quae, inventore eveniet a quod eos hic quas temporibus laboriosam perferendis voluptate maxime fuga. Alias ullam voluptate sapiente, incidunt nostrum porro et consequatur neque necessitatibus quo reiciendis quis ratione nihil hic consequuntur quas, eos quasi perspiciatis fugiat odio blanditiis! Neque fuga aliquam blanditiis animi debitis modi non, quidem consectetur nulla quas nobis id pariatur, dolores eius earum ipsam voluptas laborum! Quibusdam sint placeat fugiat id ullam voluptas quas soluta, facilis tenetur officia consequuntur perspiciatis eius porro harum repellat error laborum, architecto cumque praesentium quaerat illum ducimus, natus facere? Tenetur, ducimus, temporibus fugit magni iure neque dignissimos animi eligendi assumenda quaerat dolores corrupti.</p>
+
+</body>
+
+</html>

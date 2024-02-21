@@ -1,0 +1,92 @@
+<!-- 
+    # border radius properties
+    1. border-top-left-radius
+    2. border-top-right-radius
+    3. border-bottom-right-radius
+    4. border-bottom-left-radius
+ -->
+
+ <!-- 
+    # shorthand
+    border-radius:10px 20px 30px 15px;
+    border-radius:10px 20px;
+    border-radius:10px 20px 30px;
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border radius</title>
+    <style>
+        .border-top-left{
+            border:2px solid black;
+            padding:20px;
+            box-sizing: border-box;
+            width:500px;
+            border-top-left-radius:20px;
+        }
+        .border-top-right{
+            border:2px solid black;
+            padding:20px;
+            box-sizing: border-box;
+            width:500px;
+            border-top-right-radius:20px;
+        }
+        .border-bottom-right{
+            border:2px solid black;
+            padding:20px;
+            box-sizing: border-box;
+            width:500px;
+            border-bottom-right-radius:20px;
+        }
+        .border-bottom-left{
+            border:2px solid black;
+            padding:20px;
+            box-sizing: border-box;
+            width:500px;
+            border-bottom-left-radius:20px;
+        }
+        /* border shorthand */
+        .border-radius-shorthand{
+            border:2px solid black;
+            padding:20px;
+            box-sizing: border-box;
+            width:500px;
+            border-radius:10px 50px 5px;
+        }
+        .border-radius-shorthand-two{
+            border:2px solid black;
+            padding:20px;
+            box-sizing: border-box;
+            width:500px;
+            border-radius:10px 50px 10px 25px;
+        }
+        .border-radius-shorthand-three{
+            border:2px solid black;
+            padding:20px;
+            box-sizing: border-box;
+            width:500px;
+            border-radius:10px 50px;
+        }
+    </style>
+</head>
+<body>
+    <p class="border-top-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius alias sapiente vel quaerat. Placeat assumenda, exercitationem corporis beatae reiciendis corrupti. Aliquid nostrum possimus ipsum veniam. Magni aperiam quasi placeat illo quibusdam error corporis soluta sed veniam, impedit doloremque consectetur saepe pariatur delectus quod inventore dolorum nulla natus aut explicabo?</p>
+
+    <p class="border-top-right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius alias sapiente vel quaerat. Placeat assumenda, exercitationem corporis beatae reiciendis corrupti. Aliquid nostrum possimus ipsum veniam. Magni aperiam quasi placeat illo quibusdam error corporis soluta sed veniam, impedit doloremque consectetur saepe pariatur delectus quod inventore dolorum nulla natus aut explicabo?</p>
+
+    <p class="border-bottom-right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius alias sapiente vel quaerat. Placeat assumenda, exercitationem corporis beatae reiciendis corrupti. Aliquid nostrum possimus ipsum veniam. Magni aperiam quasi placeat illo quibusdam error corporis soluta sed veniam, impedit doloremque consectetur saepe pariatur delectus quod inventore dolorum nulla natus aut explicabo?</p>
+
+    <p class="border-bottom-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius alias sapiente vel quaerat. Placeat assumenda, exercitationem corporis beatae reiciendis corrupti. Aliquid nostrum possimus ipsum veniam. Magni aperiam quasi placeat illo quibusdam error corporis soluta sed veniam, impedit doloremque consectetur saepe pariatur delectus quod inventore dolorum nulla natus aut explicabo?</p>
+
+    <hr>
+
+    <p class="border-radius-shorthand">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius alias sapiente vel quaerat. Placeat assumenda, exercitationem corporis beatae reiciendis corrupti. Aliquid nostrum possimus ipsum veniam. Magni aperiam quasi placeat illo quibusdam error corporis soluta sed veniam, impedit doloremque consectetur saepe pariatur delectus quod inventore dolorum nulla natus aut explicabo?</p>
+
+    <p class="border-radius-shorthand-two">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius alias sapiente vel quaerat. Placeat assumenda, exercitationem corporis beatae reiciendis corrupti. Aliquid nostrum possimus ipsum veniam. Magni aperiam quasi placeat illo quibusdam error corporis soluta sed veniam, impedit doloremque consectetur saepe pariatur delectus quod inventore dolorum nulla natus aut explicabo?</p>
+
+    <p class="border-radius-shorthand-three">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius alias sapiente vel quaerat. Placeat assumenda, exercitationem corporis beatae reiciendis corrupti. Aliquid nostrum possimus ipsum veniam. Magni aperiam quasi placeat illo quibusdam error corporis soluta sed veniam, impedit doloremque consectetur saepe pariatur delectus quod inventore dolorum nulla natus aut explicabo?</p>
+</body>
+</html>

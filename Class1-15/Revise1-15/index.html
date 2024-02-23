@@ -24,6 +24,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revise 1 to 15 CSS class</title>
+    <style>
+        .class-selector{
+            font-size:22px;
+        }
+        #id-selector{
+            font-size:20px;
+        }
+        u{
+            font-size:18px;
+        }
+        .descendent-selector p{
+            font-size:22px;
+        }
+    </style>
 </head>
 
 <body>
@@ -58,6 +72,14 @@
             non?</p>
     </section>
     <hr>
+
+    <!-- tag,class,id,descendent selector -->
+    <section class="descendent-selector">
+        <p class="class-selector" >Lorem ipsum dolor sit amet.</p>
+        <p id="id-selector" >Lorem ipsum dolor sit amet.</p>
+        <u>Lorem ipsum dolor sit amet.</u>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
 </body>
 
 </html>

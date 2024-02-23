@@ -25,18 +25,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revise 1 to 15 CSS class</title>
     <style>
-        .class-selector{
-            font-size:22px;
+        /* css selector */
+        .class-selector {
+            font-size: 22px;
         }
-        #id-selector{
-            font-size:20px;
+
+        #id-selector {
+            font-size: 20px;
         }
-        u{
-            font-size:18px;
+
+        u {
+            font-size: 18px;
         }
-        .descendent-selector p{
-            font-size:22px;
+
+        .descendent-selector p {
+            font-size: 22px;
         }
+        /* border */
+        .border-solid{
+            border-width:2px;
+            border-style:solid;
+            border-color:black;
+        }
+        .border-dotted{
+            border-width:2px;
+            border-style:dotted;
+            border-color:red;
+        }
+        .border-dashed{
+            border-width:2px;
+            border-style:dashed;
+            border-color:purple;
+        }
+        .border-double{
+            border-width:2px;
+            border-style:double;
+            border-color:black;
+        }
+        .border-ridge{
+            border-width:2px;
+            border-style:ridge;
+            border-color:black;
+        }
+        .border-inset{
+            border-width:2px;
+            border-style:inset;
+            border-color:black;
+        }
+        .border-outset{
+            border-width:2px;
+            border-style:outset;
+            border-color:black;
+        }
+        .border-groove{
+            border-width:2px;
+            border-style:groove;
+            border-color:black;
+        }
+        .border-none{
+            border-style:none;
+        }
+        .border-mix{
+            border-width:2px;
+            border-style:solid dotted dashed double;
+        }
+
     </style>
 </head>
 
@@ -54,6 +107,7 @@
         </ol>
     </section>
     <hr>
+
     <!-- Css implementation -->
     <section>
         <h2>CSS implementation</h2>
@@ -75,11 +129,50 @@
 
     <!-- tag,class,id,descendent selector -->
     <section class="descendent-selector">
-        <p class="class-selector" >Lorem ipsum dolor sit amet.</p>
-        <p id="id-selector" >Lorem ipsum dolor sit amet.</p>
+        <p class="class-selector">Lorem ipsum dolor sit amet.</p>
+        <p id="id-selector">Lorem ipsum dolor sit amet.</p>
         <u>Lorem ipsum dolor sit amet.</u>
         <p>Lorem ipsum dolor sit amet.</p>
     </section>
+    <hr>
+
+    <!-- 
+    # border properties
+    1. border-width
+    2. border-style
+    3. border-color
+
+    # border style 
+    1. solid
+    2. dotted
+    3. dashed
+    4. double
+    5. ridge
+    6. inset
+    7. outset
+    8. groove
+    9. none
+    10. mix
+ -->
+
+    <!-- border -->
+    <section>
+        <p class="border-solid" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-dotted" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-dashed" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-double" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-ridge" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-inset" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-outset" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-groove" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-none" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-mix" >Lorem ipsum dolor sit amet.</p>
+    </section>
+
+
+
+
+
 </body>
 
 </html>

@@ -41,55 +41,119 @@
         .descendent-selector p {
             font-size: 22px;
         }
+
         /* border */
-        .border-solid{
-            border-width:2px;
-            border-style:solid;
-            border-color:black;
-        }
-        .border-dotted{
-            border-width:2px;
-            border-style:dotted;
-            border-color:red;
-        }
-        .border-dashed{
-            border-width:2px;
-            border-style:dashed;
-            border-color:purple;
-        }
-        .border-double{
-            border-width:2px;
-            border-style:double;
-            border-color:black;
-        }
-        .border-ridge{
-            border-width:2px;
-            border-style:ridge;
-            border-color:black;
-        }
-        .border-inset{
-            border-width:2px;
-            border-style:inset;
-            border-color:black;
-        }
-        .border-outset{
-            border-width:2px;
-            border-style:outset;
-            border-color:black;
-        }
-        .border-groove{
-            border-width:2px;
-            border-style:groove;
-            border-color:black;
-        }
-        .border-none{
-            border-style:none;
-        }
-        .border-mix{
-            border-width:2px;
-            border-style:solid dotted dashed double;
+        .border-solid {
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
         }
 
+        .border-dotted {
+            border-width: 2px;
+            border-style: dotted;
+            border-color: red;
+        }
+
+        .border-dashed {
+            border-width: 2px;
+            border-style: dashed;
+            border-color: purple;
+        }
+
+        .border-double {
+            border-width: 2px;
+            border-style: double;
+            border-color: black;
+        }
+
+        .border-ridge {
+            border-width: 2px;
+            border-style: ridge;
+            border-color: black;
+        }
+
+        .border-inset {
+            border-width: 2px;
+            border-style: inset;
+            border-color: black;
+        }
+
+        .border-outset {
+            border-width: 2px;
+            border-style: outset;
+            border-color: black;
+        }
+
+        .border-groove {
+            border-width: 2px;
+            border-style: groove;
+            border-color: black;
+        }
+
+        .border-none {
+            border-style: none;
+        }
+
+        .border-mix {
+            border-width: 2px;
+            border-style: solid dotted dashed double;
+        }
+        /* outline */
+        .outline-solid{
+            border:2px solid black;
+            outline-width:2px;
+            outline-style:solid;
+            outline-color:red;
+            outline-offset:2px;
+        }
+        .outline-dotted{
+            border:2px solid black;
+            outline-width:2px;
+            outline-style:dotted;
+            outline-color:red;
+        }
+        .outline-dashed{
+            border:2px solid black;
+            outline-width:2px;
+            outline-style:dashed;
+            outline-color:red;
+        }
+        .outline-double{
+            border:2px solid black;
+            outline-width:2px;
+            outline-style:double;
+            outline-color:purple;
+        }
+        .outline-ridge{
+            border:2px solid red;
+            outline-width:2px;
+            outline-style:ridge;
+            outline-color:gray;
+        }
+        .outline-inset{
+            border:2px solid black;
+            outline-width:2px;
+            outline-style:inset;
+            outline-color:red;
+        }
+        .outline-outset{
+            border:2px solid black;
+            outline-width:2px;
+            outline-style:outset;
+            outline-color:black;
+        }
+        .outline-groove{
+            border:2px solid black;
+            outline-width:2px;
+            outline-style:groove;
+            outline-color:red;
+        }
+        .outline-none{
+            border:2px solid black;
+            outline-width:2px;
+            outline-style:none;
+        }
     </style>
 </head>
 
@@ -157,19 +221,50 @@
 
     <!-- border -->
     <section>
-        <p class="border-solid" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-dotted" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-dashed" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-double" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-ridge" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-inset" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-outset" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-groove" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-none" >Lorem ipsum dolor sit amet.</p>
-        <p class="border-mix" >Lorem ipsum dolor sit amet.</p>
+        <p class="border-solid">Lorem ipsum dolor sit amet.</p>
+        <p class="border-dotted">Lorem ipsum dolor sit amet.</p>
+        <p class="border-dashed">Lorem ipsum dolor sit amet.</p>
+        <p class="border-double">Lorem ipsum dolor sit amet.</p>
+        <p class="border-ridge">Lorem ipsum dolor sit amet.</p>
+        <p class="border-inset">Lorem ipsum dolor sit amet.</p>
+        <p class="border-outset">Lorem ipsum dolor sit amet.</p>
+        <p class="border-groove">Lorem ipsum dolor sit amet.</p>
+        <p class="border-none">Lorem ipsum dolor sit amet.</p>
+        <p class="border-mix">Lorem ipsum dolor sit amet.</p>
     </section>
+    <hr>
 
+    <!-- 
+        # outline properties
+        1. outline-width
+        2. outline-style
+        3. outline-color
+        4. outline-offset
 
+        # outline style
+        1. outline-style:solid
+        2. outline-style:dotted
+        3. outline-style:dashed
+        4. outline-style:double
+        5. outline-style:ridge
+        6. outline-style:outset
+        7. outline-style:inset
+        8. outline-style:groove
+        9. outline-style:none
+     -->
+
+     <!-- outline -->
+     <section>
+        <p class="outline-solid">Lorem ipsum dolor sit amet.</p>
+        <p class="outline-dotted">Lorem ipsum dolor sit amet.</p>
+        <p class="outline-dashed">Lorem ipsum dolor sit amet.</p>
+        <p class="outline-double">Lorem ipsum dolor sit amet.</p>
+        <p class="outline-ridge">Lorem ipsum dolor sit amet.</p>
+        <p class="outline-inset">Lorem ipsum dolor sit amet.</p>
+        <p class="outline-outset">Lorem ipsum dolor sit amet.</p>
+        <p class="outline-groove">Lorem ipsum dolor sit amet.</p>
+        <p class="outline-none">Lorem ipsum dolor sit amet.</p>
+     </section>
 
 
 

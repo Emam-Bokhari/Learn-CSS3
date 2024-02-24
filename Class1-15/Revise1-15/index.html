@@ -267,6 +267,99 @@
             border: 2px solid black;
             padding: 10px;
         }
+
+        /* overflow */
+        .overflow-visible {
+            border: 2px solid black;
+            width: 500px;
+            height: 50px;
+        }
+
+        .overflow-hidden {
+            border: 2px solid black;
+            margin-top: 100px;
+            overflow: hidden;
+            width: 500px;
+            height: 50px;
+        }
+
+        .overflow-scroll {
+            border: 2px solid black;
+            width: 500px;
+            height: 50px;
+            overflow: scroll;
+        }
+
+        .overflow-auto {
+            border: 2px solid black;
+            width: 500px;
+            height: 50px;
+            overflow: auto;
+        }
+
+        /* overflow-x */
+        .overflow-x-visible {
+            margin-top: 300px 0px;
+            border: 2px solid yellow;
+            width: 500px;
+            height: 50px;
+            overflow-x: visible;
+        }
+
+        .overflow-x-hidden {
+            margin-top:50px;
+            border: 2px solid red;
+            margin-top: 50px;
+            width: 200px;
+            overflow-x:hidden;
+            height: 200px;
+            
+        }
+
+        .overflow-x-scroll {
+            margin-top:300px;
+
+            border: 2px solid black;
+            width: 500px;
+            height: 200px;
+            overflow-x:scroll;
+            
+        }
+
+        .overflow-x-auto {
+            margin-top:300px;
+            border: 2px solid black;
+            width: 500px;
+            height: 200px;
+            overflow-x: auto;
+        }
+
+        /* overflow-y */
+        .overflow-y-visible{
+            margin-top:500px;
+            border:2px solid black;
+            width:500px;
+            height:50px;
+            overflow-y:visible;
+        }
+        .overflow-y-hidden{
+            border:2px solid black;
+            width:500px;
+            height:50px;
+            overflow-y:hidden;
+        }
+        .overflow-y-scroll{
+            border:2px solid black;
+            width:500px;
+            height:50px;
+            overflow-y:scroll;
+        }
+        .overflow-y-auto{
+            border:2px solid black;
+            width:500px;
+            height:50px;
+            overflow-y:auto;
+        }
     </style>
 </head>
 
@@ -507,7 +600,116 @@
     </section>
     <hr>
 
+    <!-- 
+        # overflow properties
+        1. overflow
+        2. overflow-x
+        3. overflow-y
 
+        # overflow
+        1. overflow:visible
+        2. overflow:hidden
+        3. overflow:scroll
+        4. overflow:auto
+
+        # overflow-x
+        1. overflow-x:hidden
+        2. overflow-x:visible
+        3. overflow-x:scroll
+        4. overflow-x:auto
+
+        # overflow-y
+        1. overflow-y:hidden
+        2. overflow-y:visible
+        3. overflow-y:scroll
+        4. overflow-y:auto
+     -->
+
+    <section>
+        <p class="overflow-visible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae, nihil
+            repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+            ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+
+        <p class="overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae, nihil
+            repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+            ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+
+        <p class="overflow-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae, nihil
+            repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+            ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+            
+            <p class="overflow-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae, nihil
+                repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+                ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+    
+            <div class="overflow-x-visible">
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae,
+                    nihil
+                    repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+                    ducimus dolorem optio voluptatem quos quod enim. Adipisci.
+                </p>
+                <img src="https://placehold.co/300" alt="">
+            </div>
+    
+            <div class="overflow-x-hidden">
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae,
+                    nihil
+                    repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+                    ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+                    <img  src="https://placehold.co/300" alt="">
+            </div>
+
+    
+            <div class="overflow-x-scroll">
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae,
+                    nihil
+                    repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+                    ducimus dolorem optio voluptatem quos quod enim. Adipisci.
+                </p>
+                <img src="https://placehold.co/300" alt="">
+            </div>
+    
+            <div class="overflow-x-auto">
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae,
+                    nihil
+                    repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+                    ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+                    <img src="https://placehold.co/300" alt="">
+            </div>
+    
+            <p class="overflow-y-visible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae,
+                nihil
+                repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+                ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+    
+            <p class="overflow-y-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae,
+                nihil
+                repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+                ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+    
+            <p class="overflow-y-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae,
+                nihil
+                repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+                ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+
+        <p class="overflow-y-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis beatae, nihil
+            repellat nostrum modi ad dolorum eaque a totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Suscipit amet dignissimos dolores esse quidem quo aspernatur laudantium placeat, beatae impedit magni facere
+            ducimus dolorem optio voluptatem quos quod enim. Adipisci. </p>
+    </section>
+
+   
 </body>
 
 </html>

@@ -247,8 +247,25 @@
             min-width: 300px;
             max-width: 400px;
         }
+
         .min-width img {
             width: 100%;
+        }
+
+        /* box sizing,border content */
+        .border-box {
+            box-sizing: border-box;
+            width: 500px;
+            border: 2px solid black;
+            padding: 10px;
+
+        }
+
+        .content-box {
+            box-sizing: content-box;
+            width: 500px;
+            border: 2px solid black;
+            padding: 10px;
         }
     </style>
 </head>
@@ -469,6 +486,26 @@
             <img src="https://placehold.co/300" alt="">
         </div>
     </section>
+    <hr>
+
+    <!-- 
+        # box-sizing properties
+        1. box-sizing:border-box;
+        2. box-sizing:border-content;
+     -->
+
+    <section>
+        <p class="border-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis. Quos sunt enim
+            voluptate, minima ducimus dolore accusantium delectus saepe in magnam perspiciatis non accusamus! Omnis
+            itaque odit incidunt maxime? Laudantium ipsum animi fugiat accusantium molestiae nemo eos eum iusto quae
+            consequuntur voluptates quia, accusamus omnis maxime velit. Ratione, quae.</p>
+
+        <p class="content-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis. Quos sunt enim
+            voluptate, minima ducimus dolore accusantium delectus saepe in magnam perspiciatis non accusamus! Omnis
+            itaque odit incidunt maxime? Laudantium ipsum animi fugiat accusantium molestiae nemo eos eum iusto quae
+            consequuntur voluptates quia, accusamus omnis maxime velit. Ratione, quae.</p>
+    </section>
+    <hr>
 
 
 </body>

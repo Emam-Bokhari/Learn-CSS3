@@ -1,0 +1,144 @@
+<!-- 
+    # clear
+    1. clear:left;
+    2. clear:right;
+    3. clear:both;
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear</title>
+    <style>
+        .main-div {
+            border: 2px solid black;
+            width: 100%;
+            min-height: 150px;
+        }
+
+        .box-one {
+            border: 2px solid red;
+            width: 400px;
+            float: left;
+        }
+
+        .box-two {
+            border: 2px solid green;
+            width: 400px;
+            float: right;
+
+        }
+
+        .box-three {
+            border: 2px solid blue;
+            clear: both;
+        }
+        /* clear left */
+        .float-left{
+            border:2px solid red;
+            width:450px;
+            float:left;
+        }
+        .float-right{
+            border:2px solid red;
+            width:450px;
+            float:right;
+        }
+        .clear-left{
+            border:2px solid red;
+            clear:left;
+        }
+        /* clear right */
+        .clear-right{
+            border:2px solid red;
+            clear:right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-div">
+
+        <div>
+            <p class="box-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis neque eaque deserunt totam quae culpa molestias voluptatum
+                saepe ea veniam et ipsum vitae. Qui ullam voluptate rem laborum excepturi ad. Sunt eaque eius
+                voluptates! Dolorem aliquam rerum vel maxime repudiandae vero. Error.</p>
+        </div>
+
+        <div>
+            <p class="box-two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis neque eaque deserunt totam quae culpa molestias voluptatum
+                saepe ea veniam et ipsum vitae. Qui ullam voluptate rem laborum excepturi ad. Sunt eaque eius
+                voluptates! Dolorem aliquam rerum vel maxime repudiandae vero. Error.</p>
+        </div>
+
+        <div>
+            <p class="box-three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis.</p>
+        </div>
+
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="main-div">
+
+        <div>
+            <p class="float-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis neque eaque deserunt totam quae culpa molestias voluptatum
+                saepe ea veniam et ipsum vitae. Qui ullam voluptate rem laborum excepturi ad. Sunt eaque eius
+                voluptates! Dolorem aliquam rerum vel maxime repudiandae vero. Error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quasi placeat hic dignissimos ratione et voluptas omnis dolorem ipsa nam accusantium, nulla ducimus, nihil accusamus sunt laudantium vitae sequi nisi quod. Rem suscipit aut, quis sit soluta quod possimus omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque exercitationem repellendus ullam mollitia. Est, blanditiis. Nobis in unde alias quo impedit exercitationem quidem incidunt iusto autem debitis voluptatibus dolores eius quam ad, nulla totam? Mollitia eaque porro neque ad, dolorem necessitatibus assumenda aspernatur explicabo provident eos vel omnis aperiam ipsa!</p>
+        </div>
+
+        <div>
+            <p class="float-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis neque eaque deserunt totam quae culpa molestias voluptatum
+                saepe ea veniam et ipsum vitae. Qui ullam voluptate rem laborum excepturi ad. Sunt eaque eius
+                voluptates! Dolorem aliquam rerum vel maxime repudiandae vero. Error.</p>
+        </div>
+
+        <div>
+            <p class="clear-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis.</p>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="main-div">
+
+        <div>
+            <p class="float-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis neque eaque deserunt totam quae culpa molestias voluptatum
+                saepe ea veniam et ipsum vitae. Qui ullam voluptate rem laborum excepturi ad. Sunt eaque eius
+                voluptates! Dolorem aliquam rerum vel maxime repudiandae vero. Error.</p>
+        </div>
+        <div>
+            <p class="float-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis neque eaque deserunt totam quae culpa molestias voluptatum
+                saepe ea veniam et ipsum vitae. Qui ullam voluptate rem laborum excepturi ad. Sunt eaque eius
+                voluptates! Dolorem aliquam rerum vel maxime repudiandae vero. Error. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero deserunt modi earum cupiditate sequi obcaecati quisquam doloribus repellat eos, consequuntur, autem aut doloremque cumque id? Id asperiores quos similique dolorum quam, earum beatae quod nulla itaque, culpa sunt fuga quaerat soluta dolore, nam vel architecto ut eaque? Voluptate, dolor dolore.</p>
+        </div>
+        <div>
+            <p class="clear-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis ullam enim
+                similique ducimus, sit perspiciatis officiis.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

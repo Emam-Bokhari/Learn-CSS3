@@ -1,0 +1,144 @@
+<!-- 
+    # css text decoration properties
+    * text-decoration-line
+    * text-decoration-color
+    * text-decoration-style
+ -->
+
+<!-- 
+    # text-decoration-line
+    * underline
+    * overline
+    * line-through
+    * none (default)
+  -->
+
+<!--  
+    # text-decoration-style
+    * solid 
+    * dotted
+    * dashed
+    * double
+    * wavy
+   -->
+
+<!-- 
+    # text-decoration-color
+    * red
+    -->
+
+<!-- 
+    # shorthand
+    * text-decoration:underline red solid;
+     -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS text decoration</title>
+    <style>
+        /* text-decoration-line */
+        .text-decoration-line-underline {
+            text-decoration-line: underline;
+        }
+
+        .text-decoration-line-overline {
+            text-decoration-line: overline;
+        }
+
+        .text-decoration-line-linethrough {
+            text-decoration-line: line-through;
+        }
+
+        .text-decoration-line-none {
+            text-decoration-line: none;
+        }
+
+        /* text-decoration-style */
+        .text-decoration-style-solid {
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+        }
+
+        .text-decoration-style-dotted {
+            text-decoration-line: underline;
+            text-decoration-style: dotted;
+        }
+
+        .text-decoration-style-dashed {
+            text-decoration-line: underline;
+            text-decoration-style: dashed;
+        }
+
+        .text-decoration-style-double {
+            text-decoration-line: underline;
+            text-decoration-style: double;
+        }
+
+        .text-decoration-style-wavy {
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+        }
+
+        /* text-decoratio-color */
+        .text-decoration-color {
+            text-decoration-line: line-through;
+            text-decoration-style: solid;
+            text-decoration-color: red;
+        }
+        /* shorthand */
+        .text-decoration-shorthand{
+            text-decoration:overline solid red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start text decoration line -->
+    <div>
+        <p class="text-decoration-line-underline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+            quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+        <p class="text-decoration-line-overline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+            quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+        <p class="text-decoration-line-linethrough">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+        <p class="text-decoration-line-no.ne">Lorem ipsum dolor sit amet co0nsectetur adipisicing elit. Perspiciatis
+            quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+    </div>
+    <hr>
+    <!-- end text decoration line -->
+
+    <!-- start text decoration style -->
+    <div>
+        <p class="text-decoration-style-solid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+            quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+        <p class="text-decoration-style-dotted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+            quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+        <p class="text-decoration-style-dashed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+            quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+        <p class="text-decoration-style-double">Lorem ipsum dolor sit amet co0nsectetur adipisicing elit. Perspiciatis
+            quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+        <p class="text-decoration-style-wavy">Lorem ipsum dolor sit amet co0nsectetur adipisicing elit. Perspiciatis
+            quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+    </div>
+    <hr>
+    <!-- end text decoration style -->
+
+    <!-- start text decoration color -->
+
+    <p class="text-decoration-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quisquam molestiae illum ab! Autem minus atque eum tenetur velit corporis.</p>
+
+    <hr>
+    <!-- end text decoration color -->
+
+    <!-- start text decoration shorthand -->
+    <p class="text-decoration-shorthand">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione.</p>
+    <!-- end text decoration shorthand -->
+
+</body>
+
+</html>

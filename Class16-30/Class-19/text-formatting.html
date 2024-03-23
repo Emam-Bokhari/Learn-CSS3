@@ -1,0 +1,256 @@
+<!-- 
+    # css text properties
+    
+    # text-align
+    * text-align-last
+    * text-transform
+    * text indent
+    * word-spacing
+    * letter-spacing
+ -->
+
+<!-- 
+    # align
+    * text-align:center
+    * text-align:left (default)
+    * text-align:right
+    * text-align:justify
+  -->
+
+<!-- 
+    # text-align-last
+    * text-align-last:start; 
+    * text-align-last:center;
+    * text-align-last:auto; (default)
+   -->
+
+<!-- 
+    # text-transform
+    * text-transform:uppercase;
+    * text-transform:lowercase;
+    * text-transform:capitalize;
+    * text-transform:none (default)
+    -->
+
+<!-- 
+    # text-indent
+    * text-indent:100px;
+    -->
+
+<!-- 
+    # word-spacing
+    * word-spacing:50px;
+    -->
+
+<!-- 
+    # letter-spacing
+    * letter-spacing:5px;
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS text properties</title>
+
+    <style>
+        /* text-align */
+        .text-align-left {
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            text-align: left;
+        }
+
+        .text-align-right {
+            border: 2px solid indigo;
+            text-align: right;
+        }
+
+        .text-align-center {
+            border: 2px solid purple;
+            text-align: center;
+        }
+
+        .text-align-justify {
+            border: 2px solid goldenrod;
+            text-align: justify;
+        }
+
+        /* text-align-last */
+        .text-align-last-start {
+            border: 2px solid red;
+            text-align: right;
+            text-align-last: start;
+        }
+
+        .text-align-last-center {
+            border: 2px solid green;
+            text-align: left;
+            text-align-last: center;
+        }
+
+        .text-align-last-auto {
+            border: 2px solid green;
+            text-align: left;
+            text-align-last: auto;
+        }
+
+        /* text-transform */
+        .text-transform-uppercase {
+            text-transform: uppercase;
+        }
+
+        .text-transform-lowercase {
+            text-transform: lowercase;
+        }
+
+        .text-transform-capitalize {
+            text-transform: capitalize;
+        }
+
+        .text-transform-none {
+            text-transform: none;
+        }
+        /* text-indent */
+        .text-indent{
+            text-indent:20px;
+        }
+        /* word-spacing */
+        .word-spacing{
+            word-spacing:10px;
+        }
+        /* letter-spacing */
+        .letter-spacing{
+            letter-spacing:5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--  start text-align -->
+    <div>
+        <p class="text-align-left">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi totam deserunt dignissimos, minima id
+            distinctio ipsa nulla nihil! Ipsam dignissimos unde aspernatur ipsa ex quibusdam doloremque itaque cum,
+            dicta reprehenderit eligendi corrupti alias hic deserunt perspiciatis quia saepe minus distinctio accusamus
+            quae sunt tenetur error! Unde esse rem quia corporis molestiae aperiam magni iure, mollitia perspiciatis
+            laboriosam itaque, temporibus, voluptatem blanditiis atque pariatur iste deleniti perferendis a amet
+            adipisci odit? Eligendi expedita dolorem sapiente illo quisquam tempore quasi, praesentium hic, minima
+            maiores consequuntur tenetur magni nihil exercitationem sint minus! Porro tenetur quidem beatae ipsa, vel
+            consequatur quibusdam non explicabo fugit!
+        </p>
+        <p class="text-align-right">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi totam deserunt dignissimos, minima id
+            distinctio ipsa nulla nihil! Ipsam dignissimos unde aspernatur ipsa ex quibusdam doloremque itaque cum,
+            dicta reprehenderit eligendi corrupti alias hic deserunt perspiciatis quia saepe minus distinctio accusamus
+            quae sunt tenetur error! Unde esse rem quia corporis molestiae aperiam magni iure, mollitia perspiciatis
+            laboriosam itaque, temporibus, voluptatem blanditiis atque pariatur iste deleniti perferendis a amet
+            adipisci odit? Eligendi expedita dolorem sapiente illo quisquam tempore quasi, praesentium hic, minima
+            maiores consequuntur tenetur magni nihil exercitationem sint minus! Porro tenetur quidem beatae ipsa, vel
+            consequatur quibusdam non explicabo fugit!
+        </p>
+        <p class="text-align-center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi totam deserunt dignissimos, minima id
+            distinctio ipsa nulla nihil! Ipsam dignissimos unde aspernatur ipsa ex quibusdam doloremque itaque cum,
+            dicta reprehenderit eligendi corrupti alias hic deserunt perspiciatis quia saepe minus distinctio accusamus
+            quae sunt tenetur error! Unde esse rem quia corporis molestiae aperiam magni iure, mollitia perspiciatis
+            laboriosam itaque, temporibus, voluptatem blanditiis atque pariatur iste deleniti perferendis a amet
+            adipisci odit? Eligendi expedita dolorem sapiente illo quisquam tempore quasi, praesentium hic, minima
+            maiores consequuntur tenetur magni nihil exercitationem sint minus! Porro tenetur quidem beatae ipsa, vel
+            consequatur quibusdam non explicabo fugit!
+        </p>
+        <p class="text-align-justify">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi totam deserunt dignissimos, minima id
+            distinctio ipsa nulla nihil! Ipsam dignissimos unde aspernatur ipsa ex quibusdam doloremque itaque cum,
+            dicta reprehenderit eligendi corrupti alias hic deserunt perspiciatis quia saepe minus distinctio accusamus
+            quae sunt tenetur error! Unde esse rem quia corporis molestiae aperiam magni iure, mollitia perspiciatis
+            laboriosam itaque, temporibus, voluptatem blanditiis atque pariatur iste deleniti perferendis a amet
+            adipisci odit? Eligendi expedita dolorem sapiente illo quisquam tempore quasi, praesentium hic, minima
+            maiores consequuntur tenetur magni nihil exercitationem sint minus! Porro tenetur quidem beatae ipsa, vel
+            consequatur quibusdam non explicabo fugit!
+        </p>
+    </div>
+    <!-- end text-align -->
+    <hr>
+
+    <!-- start text-align-last -->
+    <div>
+
+        <p class="text-align-last-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad placeat reiciendis
+            itaque a facilis illo nulla doloremque officiis, necessitatibus labore totam. Eos assumenda voluptatum iste
+            voluptatibus corporis cumque excepturi temporibus amet expedita libero nam quisquam accusamus error sint,
+            dolorum sunt recusandae corrupti rem suscipit reiciendis nihil? Fugiat nihil nobis esse tempore dicta
+            placeat labore, modi corrupti voluptate minima possimus voluptatum illum, quia voluptatem itaque optio
+            consequatur suscipit repudiandae sapiente animi? Ex architecto, sequi hic, animi, beatae tempore amet cumque
+            temporibus accusantium quibusdam aliquid deleniti? Odit modi, ea rem nihil aliquid recusandae non sint
+            tempore maxime vero architecto laudantium assumenda cumque?</p>
+        <p class="text-align-last-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad placeat
+            reiciendis itaque a facilis illo nulla doloremque officiis, necessitatibus labore totam. Eos assumenda
+            voluptatum iste voluptatibus corporis cumque excepturi temporibus amet expedita libero nam quisquam
+            accusamus error sint, dolorum sunt recusandae corrupti rem suscipit reiciendis nihil? Fugiat nihil nobis
+            esse tempore dicta placeat labore, modi corrupti voluptate minima possimus voluptatum illum, quia voluptatem
+            itaque optio consequatur suscipit repudiandae sapiente animi? Ex architecto, sequi hic, animi, beatae
+            tempore amet cumque temporibus accusantium quibusdam aliquid deleniti? Odit modi, ea rem nihil aliquid
+            recusandae non sint tempore maxime vero architecto laudantium assumenda cumque?</p>
+        <p class="text-align-last-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad placeat reiciendis
+            itaque a facilis illo nulla doloremque officiis, necessitatibus labore totam. Eos assumenda voluptatum iste
+            voluptatibus corporis cumque excepturi temporibus amet expedita libero nam quisquam accusamus error sint,
+            dolorum sunt recusandae corrupti rem suscipit reiciendis nihil? Fugiat nihil nobis esse tempore dicta
+            placeat labore, modi corrupti voluptate minima possimus voluptatum illum, quia voluptatem itaque optio
+            consequatur suscipit repudiandae sapiente animi? Ex architecto, sequi hic, animi, beatae tempore amet cumque
+            temporibus accusantium quibusdam aliquid deleniti? Odit modi, ea rem nihil aliquid recusandae non sint
+            tempore maxime vero architecto laudantium assumenda cumque?</p>
+    </div>
+    <!-- end text-align-last -->
+    <hr>
+
+    <!-- start text-transform -->
+    <div>
+        <p class="text-transform-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, labore?</p>
+        <p class="text-transform-lowercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, labore?</p>
+        <p class="text-transform-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, labore?</p>
+        <p class="text-transform-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, labore?</p>
+    </div>
+    <!-- end text-transform -->
+    <hr>
+
+    <!-- start text indent -->
+    <p class="text-indent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolorem, vel voluptatem debitis
+        sint quam saepe assumenda aspernatur iure officia ducimus in corrupti sit et deleniti delectus vero minima eius.
+        Voluptatum harum culpa maiores architecto unde facere repudiandae reprehenderit sunt illum. Obcaecati corrupti
+        neque numquam, necessitatibus tempore qui ullam placeat perferendis nisi sunt. Optio deleniti doloribus impedit
+        mollitia laudantium praesentium consectetur harum velit sint obcaecati cum fugiat natus, voluptatum, officiis
+        voluptas! Ut quo atque, quis porro itaque quas quia nihil provident asperiores laudantium nobis mollitia
+        quibusdam voluptatibus fugiat commodi harum quisquam temporibus minima quod illum sapiente nemo iusto ad
+        obcaecati? Voluptatibus minima, vitae, voluptate quae natus doloribus repellat explicabo ipsam suscipit soluta
+        quibusdam illum minus voluptatum ullam, dolor eos nisi qui impedit tempore hic quia dignissimos? Eaque, quisquam
+        nulla reprehenderit soluta aperiam omnis sunt expedita dicta rem sapiente aut cumque minima unde placeat
+        blanditiis laudantium voluptatum quam. Atque odio itaque temporibus veritatis. Corrupti fugiat vero molestiae
+        nesciunt minus impedit delectus asperiores repellendus illum consequatur reiciendis dicta porro earum suscipit
+        officia, quo debitis minima eaque maiores, harum error laboriosam accusantium, distinctio molestias! Quis
+        tenetur, fugit error id labore consequuntur sunt accusamus eveniet voluptas sint, quas saepe numquam corrupti
+        optio! Dolorum.</p>
+    <hr>
+    <!-- end text indent -->
+
+    <!-- start word spacing -->
+    <p class="word-spacing">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, a magnam quo repellendus
+        fuga debitis nobis officia omnis rem delectus.</p>
+    <hr>
+    <!-- end word spacing -->
+
+    <!-- start letter spacing -->
+    <p class="letter-spacing">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic modi tempore illo magnam
+        earum nulla voluptates veritatis adipisci? Dolores fuga, dolore illo odit et sed qui itaque sunt voluptatem,
+        atque vel quas soluta facere laborum quia tempore esse ipsum.</p>
+    <hr>
+    <!-- end letter spacing -->
+
+
+</body>
+
+</html>

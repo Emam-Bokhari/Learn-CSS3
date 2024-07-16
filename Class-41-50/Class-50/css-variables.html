@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --main-color:#f3971b;
+            --secondery-color:gray;
+        }
+        .text{
+            color:var(--main-color)
+        }
+        .text-secondery{
+            color:var(--secondery-color)
+        }
+    </style>
+  </head>
+  <body>
+<div>
+    <p class="text-secondery" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cum cumque esse, quae a hic in odio velit molestias debitis itaque eligendi dolor veritatis nihil. Deleniti quam at dolore est!</p>
+</div>
+  </body>
+</html>

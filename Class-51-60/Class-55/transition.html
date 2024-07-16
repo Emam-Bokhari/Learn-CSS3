@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transitions</title>
+    <style>
+      .transitions {
+        width: 150px;
+        height: 150px;
+        background-color: orange;
+      }
+      .transitions:hover {
+        width: 200px;
+        height: 200px;
+        background-color: violet;
+        transition-property: width, height;
+        transition-duration:2s;
+        transition-timing-function:ease;
+        transition-delay:500ms;
+      }
+      .transition-shortcut{
+        margin-top:100px;
+        width:100px;
+        height:100px;
+        background-color:violet;
+      }
+      .transition-shortcut:hover{
+        width:120px;
+        height: 120px;
+        background-color: blueviolet;
+        transition:all;
+        transition-duration:300ms;
+        transition-timing-function: ease;
+      }
+      .inp{
+        margin-top:100px;
+        width:200px;
+        padding:4px;
+        border:2px solid black;
+        border-radius: 4px;
+      }
+      .inp:focus{
+        width:250px;
+        transition:all;
+        transition-timing-function: ease;
+        transition-duration:1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="transitions"></div>
+    <div class="transition-shortcut" ></div>
+    <input class="inp" type="text" name="" id="">
+  </body>
+</html>

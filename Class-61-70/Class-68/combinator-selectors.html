@@ -13,11 +13,19 @@
       padding: 8px;
     }
     /* direct child selector */
-    #list li{
-        color:green;
+    #list li {
+      color: green;
     }
     #list > li {
       color: red;
+    }
+    #box > p {
+      background-color: gray;
+      padding: 8px;
+    }
+    /* adjacent sibling selector */
+    ul + p {
+      color: violet;
     }
   </style>
   <body>
@@ -43,12 +51,23 @@
           <li>Mango</li>
         </ul>
       </ul>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, aut?</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, aut?</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, aut?</p>
     </div>
 
     <div id="box">
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, culpa.
       </p>
+
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sed,
+          modi distinctio et magni veniam ipsa unde ipsam possimus tempore.
+        </p>
+      </div>
     </div>
     <!-- end direct child selector -->
   </body>

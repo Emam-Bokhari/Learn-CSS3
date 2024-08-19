@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinators Selectors</title>
+  </head>
+  <style>
+    /* descendant selector */
+    div p span {
+      background-color: gray;
+      border: 2px solid black;
+      padding: 8px;
+    }
+    /* direct child selector */
+    #list li{
+        color:green;
+    }
+    #list > li {
+      color: red;
+    }
+  </style>
+  <body>
+    <!-- Start descendant selectors -->
+    <div>
+      <p><span> Emam Bokhari </span></p>
+      <p>Moshfiqur Rahman</p>
+    </div>
+    <div>
+      <p><span>Md.Khokon Ahmeed</span></p>
+    </div>
+    <!-- End descendant selectors -->
+
+    <!-- start direct child selector -->
+    <div>
+      <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+
+        <ul>
+          <li>Apple</li>
+          <li>Mango</li>
+        </ul>
+      </ul>
+    </div>
+
+    <div id="box">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, culpa.
+      </p>
+    </div>
+    <!-- end direct child selector -->
+  </body>
+</html>

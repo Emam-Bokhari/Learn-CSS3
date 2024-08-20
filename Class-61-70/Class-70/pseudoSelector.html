@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Selectors</title>
+    <style>
+      /* first child */
+      li:first-child {
+        color: red;
+      }
+      p:first-child {
+        background-color: gray;
+        color: yellowgreen;
+        padding: 4px;
+      }
+      /* last child */
+      li:last-child {
+        color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <div>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul>
+      <li>1Item</li>
+      <li>2Item</li>
+      <li>3Item</li>
+    </ul>
+  </body>
+</html>

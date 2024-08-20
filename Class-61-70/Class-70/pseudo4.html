@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Selector</title>
+    <style>
+        ul li a:active{
+            color:green;
+        }
+        .test:target{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <!-- active -->
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Application</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Signin</a></li>
+    </ul>
+    <!-- target -->
+     <li><a href="#html">HTML</a></li>
+     <li><a href="#css">CSS</a></li>
+     <li><a href="#js">JS</a></li>
+     <div>
+        <p class="test" id="html" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iusto earum molestiae voluptatem explicabo praesentium autem unde architecto veritatis facere, quae porro incidunt perferendis vel cumque voluptate odio, officiis quisquam?</p>
+        <p class="test"  id="css" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iusto earum molestiae voluptatem explicabo praesentium autem unde architecto veritatis facere, quae porro incidunt perferendis vel cumque voluptate odio, officiis quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatibus earum maxime sapiente fugit obcaecati dignissimos cupiditate molestiae, laudantium ducimus est temporibus autem unde possimus vitae consequuntur aliquid? Recusandae libero odit dolorum provident, eligendi laudantium cum, atque impedit molestiae quia odio quaerat amet illo harum cupiditate laborum nam! Optio, maiores!</p>
+        <p class="test"  id="js" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nostrum quisquam rerum. Mollitia enim soluta odit tempora accusantium neque nihil voluptate, ipsum explicabo excepturi repudiandae, molestiae saepe. Repellat, dolorem fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iusto earum molestiae voluptatem explicabo praesentium autem unde architecto veritatis facere, quae porro incidunt perferendis vel cumque voluptate odio, officiis quisquam?</p>
+     </div>
+</body>
+</html>

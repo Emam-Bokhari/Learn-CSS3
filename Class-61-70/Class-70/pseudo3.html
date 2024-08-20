@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector</title>
+    <style>
+        /* empty */
+        div:empty{
+            border:2px solid red;
+        }
+        p:empty{
+            border:2px solid red;
+        }
+        /* not */
+        p:not(.text){
+            color:violet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ullam laboriosam tempore quod, necessitatibus commodi alias, at quidem enim incidunt accusamus numquam praesentium nam. Aliquam voluptas reprehenderit perspiciatis minima commodi.</p>
+    </div>
+    <div></div>
+    <div>
+        <p>lorem</p>
+    </div>
+    <p></p>
+    <ul id="list">
+        <li>1item</li>
+        <li>2item</li>
+        <li>3item</li>
+    </ul>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto excepturi esse maxime vero fugiat iure provident officia nostrum, dolor, ratione non veniam quod ad, similique unde magnam. Velit, ab perferendis?</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio similique illum culpa, voluptatibus sit id eos reiciendis, impedit corporis quod veniam eligendi aut sequi aliquam recusandae molestias autem expedita voluptatum.</p>
+    <p class="text" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut odio officia rem autem at nostrum, corrupti neque cum repellendus? Hic, consequatur in? Quisquam, asperiores ad optio quam repellendus recusandae aspernatur.</p>
+</body>
+</html>

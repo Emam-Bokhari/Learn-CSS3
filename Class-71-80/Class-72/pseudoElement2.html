@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudu Elements</title>
+    <style>
+      p::before {
+        content: "Hello";
+        background-color:violet;
+        padding:4px;
+      }
+      p::after{
+        content:"World!";
+        background-color:blueviolet;
+        padding:4px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque,
+      consequatur.
+    </p>
+  </body>
+</html>

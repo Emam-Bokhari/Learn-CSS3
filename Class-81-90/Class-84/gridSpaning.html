@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Spaning</title>
+    <style>
+      .container {
+        width: 500px;
+        margin: auto;
+        margin-top: 10%;
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 120px);
+        grid-gap: 10px;
+      }
+      .items1 {
+        background-color: orangered;
+        grid-column:1/3;
+      }
+      .items2 {
+        background-color: greenyellow;
+      }
+      .items3 {
+        background-color: slateblue;
+        grid-row:2/5;
+      }
+      .items4 {
+        background-color: goldenrod;
+        grid-column:2/4;
+      }
+      .items5 {
+        background-color: skyblue;
+      }
+      .items6 {
+        background-color: indianred;
+        grid-row:3/5;
+        grid-column:3/4;
+      }
+      .items7 {
+        background-color: orange;
+      }
+      .items8 {
+        background-color: limegreen;
+        grid-column:1/-1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items items1">First</div>
+      <div class="items items2">Second</div>
+      <div class="items items3">Third</div>
+      <div class="items items4">Four</div>
+      <div class="items items5">Five</div>
+      <div class="items items6">Six</div>
+      <div class="items items7">Seven</div>
+      <div class="items items8">Eight</div>
+    </div>
+  </body>
+</html>

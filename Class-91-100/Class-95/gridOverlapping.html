@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Order</title>
+    <style>
+      .container {
+        width: 500px;
+        margin: auto;
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(2, 150px);
+      }
+      .items {
+        width: 150px;
+      }
+      .items1 {
+        background-color: orangered;
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        align-self: start;
+        z-index: 3;
+      }
+      .items2 {
+        background-color: greenyellow;
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        place-self: center;
+        z-index: 2;
+      }
+      .items3 {
+        background-color: slateblue;
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        place-self: end;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items items1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae
+        ratione at enim quis inventore, quaerat possimus laudantium obcaecati
+        error. Lorem ipsum dolor sit amet.
+      </div>
+      <div class="items items2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        reprehenderit adipisci unde laborum et inventore voluptate dolor
+        quisquam, molestiae suscipit!
+      </div>
+      <div class="items items3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+        repellat modi alias quia harum excepturi dolorum, debitis maxime quod
+        sapiente.
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Order</title>
+    <style>
+      .container {
+        width: 500px;
+        margin: auto;
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 100px);
+      }
+      .items1 {
+        background-color: orangered;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap:5px;
+        padding:8px;
+      }
+      .items1>div{
+        background-color:white;
+        padding:4px;
+      }
+      .items2 {
+        background-color: greenyellow;
+      }
+      .items3 {
+        background-color: slateblue;
+      }
+      .items4 {
+        background-color: goldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items items1">
+        <div class="subItems1">First</div>
+        <div class="subItems2">First</div>
+        <div class="subItems3">First</div>
+      </div>
+      <div class="items items2">Second</div>
+      <div class="items items3">Third</div>
+      <div class="items items4">Four</div>
+    </div>
+  </body>
+</html>

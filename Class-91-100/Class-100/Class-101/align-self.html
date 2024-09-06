@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Align Content</title>
+    <title>Align Self</title>
     <style>
       .container {
         width: 300px;
@@ -12,27 +12,31 @@
         padding: 12px;
         display: flex;
         flex-wrap: wrap;
-        align-content: end;
       }
       .items1 {
         background-color: orangered;
         padding: 4px;
+        align-self:end;
       }
       .items2 {
         background-color: greenyellow;
-        padding: 4px;
+        padding: 4px; 
+        align-self:center;
       }
       .items3 {
         background-color: slateblue;
         padding: 4px;
+        align-self:baseline;
       }
       .items4 {
         background-color: violet;
         padding: 4px;
+        align-self:flex-start;
       }
       .items5 {
         background-color: yellowgreen;
         padding: 4px;
+        align-self:stretch;
       }
       .items6 {
         background-color: indianred;

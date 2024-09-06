@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Align Self</title>
+    <style>
+      .container {
+        width: 300px;
+        height: 200px;
+        background-color: whitesmoke;
+        padding: 12px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .items1 {
+        background-color: orangered;
+        padding: 4px;
+        align-self: end;
+      }
+      .items2 {
+        background-color: greenyellow;
+        padding: 4px;
+        align-self: center;
+      }
+      .items3 {
+        background-color: slateblue;
+        padding: 4px;
+        align-self: baseline;
+      }
+      .items4 {
+        background-color: violet;
+        padding: 4px;
+        align-self: flex-start;
+      }
+      .items5 {
+        background-color: yellowgreen;
+        padding: 4px;
+        align-self: stretch;
+      }
+      .items6 {
+        background-color: indianred;
+        padding: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items1">First</div>
+      <div class="items2">Secenod</div>
+      <div class="items3">Third</div>
+      <div class="items4">Four</div>
+      <div class="items5">Five</div>
+      <div class="items6">Six</div>
+      <div class="items4">Four</div>
+      <div class="items5">Five</div>
+      <div class="items6">Six</div>
+    </div>
+  </body>
+</html>

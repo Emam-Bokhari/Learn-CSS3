@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Align Self</title>
+    <title>Flex box Order</title>
     <style>
       .container {
         width: 300px;
@@ -11,36 +11,26 @@
         background-color: whitesmoke;
         padding: 12px;
         display: flex;
-        flex-wrap: wrap;
       }
       .items1 {
         background-color: orangered;
         padding: 4px;
-        align-self:end;
+        order:1;
       }
       .items2 {
         background-color: greenyellow;
-        padding: 4px; 
-        align-self:center;
+        padding: 4px;
+        order:3;
       }
       .items3 {
         background-color: slateblue;
         padding: 4px;
-        align-self:baseline;
+        order:2;
       }
       .items4 {
         background-color: violet;
         padding: 4px;
-        align-self:flex-start;
-      }
-      .items5 {
-        background-color: yellowgreen;
-        padding: 4px;
-        align-self:stretch;
-      }
-      .items6 {
-        background-color: indianred;
-        padding: 4px;
+        order:4;
       }
     </style>
   </head>
@@ -50,11 +40,6 @@
       <div class="items2">Secenod</div>
       <div class="items3">Third</div>
       <div class="items4">Four</div>
-      <div class="items5">Five</div>
-      <div class="items6">Six</div>
-      <div class="items4">Four</div>
-      <div class="items5">Five</div>
-      <div class="items6">Six</div>
     </div>
   </body>
 </html>

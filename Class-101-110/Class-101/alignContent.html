@@ -3,19 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flex Wrap</title>
+    <title>Align Content</title>
     <style>
       .container {
-        width: 500px;
+        width: 300px;
         height: 200px;
         background-color: whitesmoke;
         padding: 12px;
         display: flex;
-        /* align-items:stretch; */
-        /* align-items:start; */
-        /* align-items:end; */
-        /* align-items:center; */
-        align-items: baseline;
+        flex-wrap:wrap;
+        align-content: end;
       }
       .items1 {
         background-color: orangered;
@@ -28,8 +25,6 @@
       .items3 {
         background-color: slateblue;
         padding: 4px;
-        width: 40px;
-        height: 120px;
       }
       .items4 {
         background-color: violet;

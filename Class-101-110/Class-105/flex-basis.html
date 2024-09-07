@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexbox Flex Grow</title>
+    <title>Flexbox Flex basis</title>
     <style>
       .container {
         width: 300px;
@@ -12,22 +12,21 @@
         padding: 12px;
         display: flex;
       }
-      .items {
-        flex-grow: 1;
+      .items{
+        flex-grow:1;
       }
       .items1 {
         background-color: orangered;
         padding: 4px;
+        flex-basis:100px;
       }
       .items2 {
         background-color: greenyellow;
         padding: 4px;
-        flex-grow: 0;
       }
       .items3 {
         background-color: slateblue;
         padding: 4px;
-        flex-grow: 2;
       }
       .items4 {
         background-color: violet;

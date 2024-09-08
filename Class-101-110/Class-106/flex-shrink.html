@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Flex basis</title>
+    <style>
+      .container {
+        width: 300px;
+        height: 200px;
+        background-color: whitesmoke;
+        padding: 12px;
+        display: flex;
+      }
+      .items{
+        flex-grow:1;
+        flex-shrink:1;
+      }
+      .items1 {
+        background-color: orangered;
+        padding: 4px;
+        flex-shrink:1;
+      }
+      .items2 {
+        background-color: greenyellow;
+        padding: 4px;
+      }
+      .items3 {
+        background-color: slateblue;
+        padding: 4px;
+      }
+      .items4 {
+        background-color: violet;
+        padding: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items items1">First</div>
+      <div class="items items2">Secenod</div>
+      <div class="items items3">Third</div>
+      <div class="items items4">Four</div>
+    </div>
+  </body>
+</html>
